@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Game to improve RGB,HSL colour code skills" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Colour Guessing Game | FAVOURZ</title>
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <!-- Favicon image -->
+    <link rel="shortcut icon" type="image/png" href="Colour-beat-pad-icon.png">
+</head>
+
+<body>
+    <h1>THE GREAT
+        <br>
+        <span id="colourdisplay">RGB</span>
+        <br>
+        COLOUR GAME
+    </h1>
+    <div id="stripe">
+        <button id="reset">New Colours</button>
+        <span id="message"></span>
+        <button class="mode">Easy</button>
+        <button class="mode selected">Hard</button>
+    </div>
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+    <br>
+    <br>
+    <div class="help-div">
+        <p>Help:</p>
+        <br>
+        <br>
+        <ul>
+            <li>This application is named <div class="colour-text" style="display:inline-block"><span
+                        style="color:#FF0000; font-weight:bolder">C</span>
+                    <span style="color:#FF7F00; font-weight:bolder">O</span>
+                    <span style="color:#FFFF00; font-weight:bolder">L</span> <span
+                        style="color:#00FF00; font-weight:bolder">O</span> <span
+                        style="color:#0000FF; font-weight:bolder">U</span> <span
+                        style="color:#4B0082; font-weight:bolder">R</span>
+                </div> BEAT PAD.
+            </li>
+            <li> <span class="click-here">Click here</span> to stop the sound</li>
+            <li>It helps Designers, Developers & Photographers learn and understand the RGB colour code better.</li>
+            <li>It plays the snippet of a beat when a user clicks on the wrong colour while playing the full beat when a
+                user clicks on the right colour</li>
+            <li>This application is made with <i class="fas fa-heart"></i> by <a class="fav-link"
+                    href="https://ng.linkedin.com/in/favour-okoh">Favourz.</a></li>
+        </ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script type="text/javascript" defer src="script.js"></script>
+</body>
+
+</html>
