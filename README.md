@@ -1,4 +1,2 @@
-# Barbershop-Website-Template
-A barbershop responsive website built by yours truly using HTML, CSS Bootstrap.
-
-Disclaimer: I'm not the original owner of the design
+# colour-beat-pad
+THIS WEB APPLICATION HELPS DESIGNERS, DEVELOPERS & PHOTOGRAPHERS LEARN AND UNDERSTAND THE RGB COLOUR CODE BETTER
